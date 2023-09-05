@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Locadora de Veículos</title>
+</head>
+<body>
+  <h1>LocaWeb</h1>
+
+  <div class="container">
+    <div class="form">
+      <h2>Cadastrar Veículo</h2>
+      <form id="cadastrar-form">
+        <input type="text" id="placa" placeholder="Placa" required>
+        <input type="text" id="marca" placeholder="Marca" required>
+        <input type="text" id="modelo" placeholder="Modelo" required>
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+
+    <div class="form">
+      <h2>Alugar Veículo</h2>
+      <form id="alugar-form">
+        <input type="text" id="placa-alugar" placeholder="Placa" required>
+        <button type="submit">Alugar</button>
+      </form>
+    </div>
+
+    <div class="form">
+      <h2>Devolver Veículo</h2>
+      <form id="devolver-form">
+        <input type="text" id="placa-devolver" placeholder="Placa" required>
+        <button type="submit">Devolver</button>
+      </form>
+    </div>
+
+    <div class="form">
+      <h2>Excluir Veículo</h2>
+      <form id="excluir-form">
+        <input type="text" id="placa-excluir" placeholder="Placa" required>
+        <button type="submit">Excluir</button>
+      </form>
+    </div>
+
+    <div class="list">
+      <h2>Veículos Disponíveis</h2>
+      <ul id="veiculos-disponiveis"></ul>
+    </div>
+
+    <div class="list">
+      <h2>Veículos Alugados</h2>
+      <ul id="veiculos-alugados"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

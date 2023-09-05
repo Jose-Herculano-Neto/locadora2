@@ -1,0 +1,91 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  background-image: url(carros.jpg);
+  background-repeat: no-repeat;
+  background-position: absolut;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px;
+}
+
+
+.form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.form input[type="text"] {
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+
+.list {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 5px;
+}
+
+
+h1 {
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 0;
+  margin: 0;
+}
